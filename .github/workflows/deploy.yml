@@ -28,7 +28,7 @@ jobs:
       # IMPORTANT: Replace 'YOUR_REPOSITORY_NAME' with your exact GitHub repository name.
       # The forward slashes at the beginning and end are required.
       - name: Build Web Application
-        run: flutter build web --release --base-href "https://github.com/reetamit/golla_app/"
+        run: flutter build web --release --base-href "golla_app"
 
       # 5. Deploy the build outputs to the gh-pages branch
       - name: Deploy to GitHub Pages
