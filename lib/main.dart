@@ -39,16 +39,18 @@ class _MyHomePageState extends State<MyHomePage> {
       body: Stack(
         children: [
           // Layer 1: Solid base background color
-          Positioned.fill(child: Container(color: const Color(0xFF800040))),
-
-          // Layer 2: Seamless repeating silk fabric pattern filling the entire browser window
+          // Positioned.fill(child: Container(color: const Color(0xFF800040))),
           Positioned.fill(
-            child: Image.asset(
-              'assets/my_pattern.jpeg',
-              repeat: ImageRepeat.repeat,
-              opacity: const AlwaysStoppedAnimation(.5),
-            ),
+            child: Container(color: const Color.fromARGB(255, 120, 2, 45)),
           ),
+          // Layer 2: Seamless repeating silk fabric pattern filling the entire browser window
+          // Positioned.fill(
+          //   child: Image.asset(
+          //     'assets/my_pattern.jpeg',
+          //     repeat: ImageRepeat.repeat,
+          //     opacity: const AlwaysStoppedAnimation(.5),
+          //   ),
+          // ),
 
           // Layer 3: The Interactive Scrolling Interface
           Positioned.fill(
