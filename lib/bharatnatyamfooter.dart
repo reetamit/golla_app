@@ -10,8 +10,6 @@ class BharatanatyamFooter extends StatelessWidget {
     const Color goldColor = Color(0xFFD4AF37);
 
     return Container(
-      // Match the deep maroon/burgundy background color
-      //color: const Color(0xFF4A000A),
       padding: const EdgeInsets.symmetric(vertical: 24.0, horizontal: 16.0),
       child: SafeArea(
         child: Column(
