@@ -25,7 +25,6 @@ class BharatanatyamFooter extends StatelessWidget {
                     endIndent: 8,
                   ),
                 ),
-                // Custom drawn geometric lotus shape matching the image
                 customLotusVector(),
                 const Expanded(
                   child: Divider(color: goldColor, thickness: 1.0, indent: 8),
